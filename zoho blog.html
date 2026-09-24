@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOHO</title>
+    <style>
+        body{
+            /* background-color: red; */
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-color: whitesmoke;
+            width: 100vw;
+            height: 100vh;
+            position:relative;
+           
+
+            
+        }
+        .main:hover .sub1{
+             transition: all 1s ease-in-out;
+
+            background-color: rgb(255, 255, 255,0);
+            border: 2px solid red;
+            color: red;
+            transform: rotate(-5deg);
+            left:10vw;
+
+        }
+        .main:hover .sub2{
+           transition: all 1s ease-in-out;
+
+            background-color: rgb(255, 255, 255,0);
+            border: 2px solid green;
+            color: green;
+            transform: rotate(10deg);
+            left:30vw;
+
+        }.main:hover .sub3{
+            transition: all 1s ease-in-out;
+
+            background-color: rgb(255, 255, 255,0);
+            border: 2px solid dodgerblue;
+            color: dodgerblue;
+            transform: rotate(-10deg);
+            right:30vw;
+
+        }.main:hover .sub4{
+            transition: all 1s ease-in-out;
+
+            background-color: rgb(255, 255, 255,0);
+            border: 2px solid yellow;
+            color: yellow;
+            transform: rotate(5deg);
+            right:10vw;
+
+        }
+        .box{
+            width: 20vw;
+            height: 30vh;
+            border-radius: 30px;
+            /* border: 3px solid black; */
+            color: white;
+            font-size: 150px;
+            font-weight: bolder;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .sub1{
+            background-color: red;
+            position:absolute;
+            left: 4vw;
+            top:30vh;
+        }.sub2{
+            background-color: green;
+            position:absolute;
+            left: 28vw;
+            top:33vh;
+        }.sub3{
+            background-color: dodgerblue;
+            position:absolute;
+            right: 28vw;
+            top:30vh;
+        }.sub4{
+            background-color: yellow;
+            position:absolute;
+            right: 4vw;
+            top:33vh;
+        }
+        .sub5 img{
+            width:100px ;
+            position: absolute;
+            top:4vh;
+            left: 5vh;
+            position:fixed;
+        }
+        .main2{
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box sub1">Z</div>
+        <div class="box sub2">O</div>
+        <div class="box sub3">H</div>
+        <div class="box sub4">O</div>
+        <div class="sub5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/ZOHO_New.png" alt="">
+        </div>
+    </div>
+    <div class="main2"></div>
+</body>
+</html>
